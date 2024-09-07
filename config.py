@@ -11,10 +11,10 @@ API_ID = int(getenv("API_ID", 28122413))
 API_HASH = getenv("API_HASH", "750432c8e1b221f91fd2c93a92710093")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6789724300:AAHvzCMGrBqxmv7I1IY4FnF5s3fzbQZQHGc")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vikas:vikas@vikas.yfezexk.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 69990))
 
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/luffyxnetwork")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/luffy_x_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/odisha_chatting_group")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+8aj2Zt_uJSc3Yjdl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
